@@ -23,5 +23,11 @@ factorizations.
 
 Install the required package:
 
-```bash
 python -m pip install python-flint==0.6.0
+
+A successful execution terminates with:
+
+CORRECTED CODIMENSION-TWO FINITE CERTIFICATE PASSED
+Odd finite Schur lower bound  > 0.003
+Even finite Schur lower bound > 0.00018
+
