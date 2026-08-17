@@ -23,11 +23,30 @@ factorizations.
 
 Install the required package:
 
+```bash
 python -m pip install python-flint==0.6.0
+```
+
+Then run:
+
+```bash
+python first_prime_codim2_certificate.py
+```
 
 A successful execution terminates with:
 
+```text
 CORRECTED CODIMENSION-TWO FINITE CERTIFICATE PASSED
 Odd finite Schur lower bound  > 0.003
 Even finite Schur lower bound > 0.00018
+```
+
+## Provenance
+
+The SHA-256 above identifies the exact frozen proof artifact.
+
+The original successful execution established the certificate-pass condition
+and the finite lower bounds stated above. The exact historical software
+environment was not preserved. Reproduction runs are therefore documented
+separately and do not alter the frozen proof artifact.
 
