@@ -1,24 +1,27 @@
 # Pole-neutral Weil positivity through the first prime threshold
 
-This repository contains the computer-assisted certificate accompanying
-the paper *Pole-neutral Weil positivity through the first prime threshold*.
+This repository contains the rigorous computer-assisted certificate
+accompanying the paper
 
-## Proof certificate
+**Pole-neutral Weil positivity through the first prime threshold**.
 
-The definitive proof artifact is:
+## Proof artifact
+
+The definitive proof certificate is
 
 `first_prime_codim2_certificate.py`
 
-SHA-256:
+with SHA-256
 
 `716e4641f8b97d3e18921ae957d685651bc88ec8238d7dd2d351454d5c401175`
 
-The certificate uses rigorous Arb ball arithmetic through `python-flint`
+The certificate uses rigorous Arb ball arithmetic through `python-flint`,
 together with exact rational arithmetic and exact rational LDL^T
 factorizations.
 
-## Reproduction
+## Running the certificate
 
-The current reproduction environment uses:
+Install the required package:
 
-`python-flint==0.6.0`
+```bash
+python -m pip install python-flint==0.6.0
